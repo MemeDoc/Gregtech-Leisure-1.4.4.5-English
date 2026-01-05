@@ -1,0 +1,727 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "319332DBAE997BBE"
+	group: "68CBF1606D696C68"
+	icon: "gtceu:luv_electric_motor"
+	id: "319332DBAE997BBE"
+	order_index: 6
+	quest_links: [
+		{
+			id: "2D863FE0CCAA0BFC"
+			linked_quest: "4BFA114E12BCB163"
+			shape: "rsquare"
+			size: 2.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "0CAFD876C525D8C6"
+			linked_quest: "38091E7431B96FF6"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "00F6315C088DE4F5"
+			linked_quest: "7B412E455E2C321B"
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["73613E3EBEFFB326"]
+			description: ["Digging in Io."]
+			id: "7F92A8EE58AD5BA2"
+			tasks: [{
+				id: "7247977F19E25C6A"
+				item: "gtceu:naquadah_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["09F132EE8A88C872"]
+			icon_scale: 2.0d
+			id: "13BBF0FF3267BFDB"
+			tasks: [{
+				id: "78E1EA0D0D683394"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"13BBF0FF3267BFDB"
+				"766D051A40AB5324"
+			]
+			dependency_requirement: "one_completed"
+			description: ["It's a surprise to see an electromagnetic mine."]
+			id: "0507FDF7BECE29AF"
+			tasks: [{
+				id: "39855610E9E80307"
+				item: "gtceu:enriched_naquadah_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2BEF03C52636E165"]
+			description: ["ZPMMain material for the phase"]
+			id: "0485D45408234C99"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "373808445A507E87"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["13BBF0FF3267BFDB"]
+			description: ["LuVSuperconductor"]
+			id: "2CEEFDACE7B13D5A"
+			tasks: [{
+				id: "4EA57D5B0BBC42FB"
+				item: "gtceu:indium_tin_barium_titanium_cuprate_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2CEEFDACE7B13D5A"
+				"2BEF03C52636E165"
+			]
+			id: "5B01312E34A3AD60"
+			tasks: [{
+				id: "7A45FAD14DF53B00"
+				item: "gtceu:superconducting_coil"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"79D48E5CA0E21A07"
+				"00B9091E4824D78C"
+				"0F22A8CE63F369CA"
+				"5B01312E34A3AD60"
+				"4381BC8012E94E0A"
+				"4BFA114E12BCB163"
+				"14396D30F281CE72"
+			]
+			description: ["fusion is the process of converting two lighter elements into heavier ones."]
+			icon_scale: 2.0d
+			id: "118FDF6D9F868002"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "30F5A61CE755449F"
+				item: "gtceu:luv_fusion_reactor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["118FDF6D9F868002"]
+			description: ["It can't be burned directly before there's a titanium ring. It's obtained by solidified liquid fusion."]
+			id: "52DF531AFB3A07CE"
+			tasks: [{
+				id: "102F17C54DB17FBD"
+				item: "gtceu:europium_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52DF531AFB3A07CE"]
+			id: "4068B8F601B041D9"
+			tasks: [{
+				id: "167573A2E0ACFF35"
+				item: "gtceu:raw_crystal_chip"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4068B8F601B041D9"]
+			id: "368ED4C1A9ADA4D2"
+			tasks: [{
+				id: "5D8F250C052776B6"
+				item: "gtceu:raw_crystal_chip_parts"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7F649184083236E1"
+				"1F0C8D37619111BE"
+			]
+			description: ["The use of very high direct energy streams to calculate similar electrons."]
+			icon_scale: 2.0d
+			id: "5BB55AABB91EEF9D"
+			tasks: [{
+				id: "3BB71E30BB01BF1F"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5BB55AABB91EEF9D"]
+			icon_scale: 2.0d
+			id: "3DCB5E7F69CE5F7F"
+			tasks: [{
+				id: "042B52D3F408E0DA"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3DCB5E7F69CE5F7F"]
+			icon_scale: 2.0d
+			id: "09856E59E52AEE7D"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "3864B056087A7894"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"09856E59E52AEE7D"
+				"298369255C8130F7"
+			]
+			icon_scale: 2.0d
+			id: "233CA36D529EC3FB"
+			tasks: [{
+				id: "6BB959FA3D648151"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4068B8F601B041D9"]
+			icon_scale: 2.0d
+			id: "7F649184083236E1"
+			tasks: [{
+				id: "0471E640C4427300"
+				item: "gtceu:crystal_cpu"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["09F132EE8A88C872"]
+			hide_dependency_lines: true
+			id: "4381BC8012E94E0A"
+			tasks: [{
+				id: "74011E6BE9AA8BDE"
+				item: "gtceu:uhpic_chip"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5B01312E34A3AD60"
+				"4172820CE8E15F90"
+			]
+			id: "79D48E5CA0E21A07"
+			tasks: [{
+				id: "1716B0692F1C0249"
+				item: "gtceu:fusion_casing"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4058D1416D94BABB"]
+			id: "4172820CE8E15F90"
+			tasks: [{
+				id: "452A699C8A8C2AF5"
+				item: "gtceu:neutron_reflector"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7F8C2ECC7CE2BF20"
+				"43B8C2A0BAF74B2C"
+			]
+			id: "00B9091E4824D78C"
+			tasks: [{
+				id: "20C4C63653ED3480"
+				item: "gtceu:luv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2BEF03C52636E165"]
+			icon_scale: 2.0d
+			id: "23B23867F311BF51"
+			tasks: [{
+				id: "3CDD2D97C975A389"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["233CA36D529EC3FB"]
+			description: ["You don't have to make small assembly machines."]
+			icon_scale: 2.0d
+			id: "2A0269009ABF1414"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "17918BFA4E414A13"
+				item: "gtceu:precision_assembler"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["23B23867F311BF51"]
+			description: ["ZPMSuperconductor"]
+			id: "0B89B3108EB4A01F"
+			tasks: [{
+				id: "7E7B15A8DCDA158C"
+				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2CEEFDACE7B13D5A"]
+			id: "4ECACC2A6159D332"
+			tasks: [{
+				id: "66F78A994427739B"
+				item: "gtceu:luv_field_generator"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"4ECACC2A6159D332"
+				"0B89B3108EB4A01F"
+			]
+			description: ["Needed computer power."]
+			icon_scale: 2.0d
+			id: "298369255C8130F7"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "223832A139BBC896"
+				item: "gtceu:research_station"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"4ECACC2A6159D332"
+				"0B89B3108EB4A01F"
+			]
+			description: ["To provide computing power for the operation of the equipment, more computing will require the upgrade of components or the use of switches to combine multiple computer algorithms"]
+			icon_scale: 2.0d
+			id: "50FFFB0EBEDAE50B"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "1E7BE63B3A0D93A8"
+				item: "gtceu:high_performance_computation_array"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"4BFA114E12BCB163"
+				"6B71EE1A869ABCD5"
+				"7F8C2ECC7CE2BF20"
+			]
+			description: ["You're gonna have to make small units before you have a sophisticated assembly machine."]
+			id: "43B8C2A0BAF74B2C"
+			tasks: [{
+				id: "77F6912E5D65A761"
+				item: "gtceu:luv_assembler"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BFA114E12BCB163"]
+			description: [
+				"You can enter/forge tpsTo see if the game is delayed. Better make sure.tpsKeep in20"
+				"The following will lead to a game of Carden."
+				"Put everything in a little space.,It doesn't matter.TPS,But it'll lead to...FPSDown"
+				"A large number of drawers were used because of the need for iterative insertion and extraction of each drawer,Recommended conversionAEStorage"
+				"It's a big channel.,RecommendedMEControls to spread the channel.,Try to build a network to reduce the use of the main network."
+				"Extensive use of input and output bus in the network.RecommendedMEInterface"
+			]
+			id: "1866C18852956050"
+			tasks: [{
+				id: "075B9DA6F675FA75"
+				title: "If you feel Carton,"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "1F0C8D37619111BE"
+			tasks: [{
+				id: "733C183D65E9CA06"
+				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7F92A8EE58AD5BA2"
+				"7DCA0B7C9F3C3ACF"
+			]
+			id: "09F132EE8A88C872"
+			tasks: [{
+				id: "62E375AC37B369C7"
+				item: "gtceu:naquadah_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["09F132EE8A88C872"]
+			description: [
+				"There's silicon rock to do this. It's more efficient."
+				"It's not necessary."
+			]
+			hide_dependency_lines: true
+			id: "1C10383050657004"
+			tasks: [{
+				id: "78A1A23B153BDD1E"
+				item: "gtceu:naquadah_boule"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"13BBF0FF3267BFDB"
+				"766D051A40AB5324"
+			]
+			id: "2BEF03C52636E165"
+			tasks: [{
+				id: "0B22F2ABE0FBC895"
+				item: "gtceu:trinium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"23B23867F311BF51"
+				"766D051A40AB5324"
+			]
+			id: "4A058FA1859A00D1"
+			tasks: [{
+				id: "20E616EF8F63C870"
+				item: "gtceu:naquadria_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["09F132EE8A88C872"]
+			id: "66AE53E13E3C3C19"
+			tasks: [{
+				id: "41F85AC3AB132C38"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"66AE53E13E3C3C19"
+				"0485D45408234C99"
+				"0507FDF7BECE29AF"
+			]
+			description: [
+				"You're supposed to be picking up fluid veins."
+				"Then you can go to hell."
+			]
+			icon_scale: 2.0d
+			id: "67784DEB22D18308"
+			rewards: [{
+				id: "6798C71A84FECE4E"
+				item: "avaritia:infinity_axe"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1382D199FDBDEBF5"
+					item: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_6_rocket"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 0L
+									Fluid: "minecraft:empty"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BCAFEB828914FFF"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"7B412E455E2C321B"
+				"2AA63D77B0E86D2E"
+			]
+			description: [
+				"Top Level Input, Bottom Output"
+				"It's complicated. Look."
+			]
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "766D051A40AB5324"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2033E704723D1C29"
+					item: "gtceu:neutron_activator"
+					type: "item"
+				}
+				{
+					id: "52D36F7181BD1B42"
+					item: "gtceu:neutron_sensor"
+					type: "item"
+				}
+				{
+					id: "7E710037106A0AA7"
+					item: "gtceu:iv_neutron_accelerator"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52DF531AFB3A07CE"]
+			description: [
+				"bugMany, if they are few and you're sure they can be used, if you don't know."
+				""
+				"Probability swallows raw materials, models, and creates a breakdown of the archive and computer."
+			]
+			id: "4E6DCE7CDC74FC93"
+			tasks: [
+				{
+					id: "5F868C0D5F467E1C"
+					item: "gtceu:me_pattern_buffer"
+					type: "item"
+				}
+				{
+					id: "6A5312137677D28B"
+					item: "gtceu:me_pattern_buffer_proxy"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BFA114E12BCB163"]
+			description: [
+				"This is a new mineral treatment line."
+				"Output platinum, rare earth (parts), silica rock, etc."
+				"And the sauerkraut.~~~"
+				"It's very efficient. You'll like it."
+			]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "5B73961795BE42EE"
+			tasks: [{
+				id: "4532FD760D4A8258"
+				item: "gtceu:isa_mill"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5B73961795BE42EE"]
+			description: ["Very slow, but it's necessary."]
+			icon_scale: 2.0d
+			id: "2588A0EF7F27DE5B"
+			tasks: [{
+				id: "6372AD4866BBD6B6"
+				item: "gtceu:flotation_cell_regulator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2588A0EF7F27DE5B"]
+			icon_scale: 2.0d
+			id: "147A71CE5EEBC836"
+			tasks: [{
+				id: "09A3EC272A7B5FF8"
+				item: "gtceu:vacuum_drying_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4172820CE8E15F90"]
+			description: ["It's cheaper than the shell. It can fill the structure."]
+			id: "14396D30F281CE72"
+			tasks: [{
+				id: "277BB227A11F67EC"
+				item: "gtceu:fusion_glass"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["118FDF6D9F868002"]
+			id: "6A59FA11D10C648A"
+			tasks: [{
+				id: "4C1F30305CB157EA"
+				item: "gtceu:duranium_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["298369255C8130F7"]
+			id: "0723418AF58675E7"
+			optional: true
+			tasks: [{
+				id: "619E79A8D61563CA"
+				item: "gtceu:advanced_data_access_hatch"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1F0956C3BD4745A1"]
+			id: "2AA63D77B0E86D2E"
+			rewards: [{
+				id: "74F83E0CD43D15C7"
+				item: "avaritia:infinity_hoe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07D2F38F2B6D6996"
+				item: "gtceu:fall_king_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4BFA114E12BCB163"]
+			description: ["Fantastic technology."]
+			icon_scale: 2.0d
+			id: "12F9033C4C2B29EB"
+			tasks: [{
+				id: "3BC83ABCD0AD2F48"
+				item: "gtceu:wood_distillation"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BFA114E12BCB163"]
+			description: ["There's a parallel chemical reaction."]
+			icon_scale: 2.0d
+			id: "4CDCF542F45205EB"
+			tasks: [{
+				id: "29BFCB27C5CDC79E"
+				item: "gtceu:chemical_plant"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67784DEB22D18308"]
+			description: [
+				"The eye of the shadow, the data of the end."
+				"To open the Last Gate."
+			]
+			id: "0278A150804C3710"
+			tasks: [{
+				id: "14CD143A66B6DF60"
+				title: "The end."
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+	]
+	subtitle: ["Tier6-LuV"]
+	title: "Extreme pressure"
+}

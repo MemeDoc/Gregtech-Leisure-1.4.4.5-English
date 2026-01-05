@@ -1,0 +1,821 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3B3502FBD9F2C4CE"
+	group: "68CBF1606D696C68"
+	icon: "gtceu:iv_electric_motor"
+	id: "3B3502FBD9F2C4CE"
+	order_index: 5
+	quest_links: [
+		{
+			id: "0DE52ED40E51ADE2"
+			linked_quest: "3EAC914AA2073B05"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "5D6473A58EAD0FE2"
+			linked_quest: "1223D839C224777B"
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["148A5C927A0DCED1"]
+			description: ["It could be the last mixer."]
+			hide_dependent_lines: true
+			id: "0526B4AC0CAF99A5"
+			tasks: [{
+				id: "5F54118CC67D850B"
+				item: "gtceu:iv_mixer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0526B4AC0CAF99A5"]
+			description: ["A bunch of suns."]
+			id: "4058D1416D94BABB"
+			tasks: [
+				{
+					id: "3721A749B9944105"
+					item: "gtceu:tantalum_carbide_ingot"
+					type: "item"
+				}
+				{
+					id: "3D4368BF854766C4"
+					item: "gtceu:tungsten_carbide_ingot"
+					type: "item"
+				}
+				{
+					id: "5B71A05490BD6C07"
+					item: "gtceu:titanium_carbide_ingot"
+					type: "item"
+				}
+				{
+					id: "24CD9EC3BF9BC94C"
+					item: "gtceu:molybdenum_disilicide_ingot"
+					type: "item"
+				}
+				{
+					id: "0654B52D0046F9EA"
+					item: "gtceu:hsla_steel_ingot"
+					type: "item"
+				}
+			]
+			title: "All kinds of suns"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4058D1416D94BABB"]
+			description: [
+				"Alloy smelting furnaces produce melting fluids,If there's enough heat in the formula..These fluids need to be cooled with a vacuum freezer."
+				"Don't be frightened by the long smelting time..This machine directly integrates the mixer formula into the smelting formula. Medium,And it's actually much more time-saving than smelting in furnaces, and the amount of single production is the total of inputs."
+				"Almost every material can be produced in this machine.,Therefore,,If you're in trouble looking for a mixer formula,,Please find a melting fluid.!"
+			]
+			icon: "gtceu:alloy_blast_smelter"
+			icon_scale: 2.0d
+			id: "1F0956C3BD4745A1"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					id: "369FD15BD477C9E7"
+					item: "gtceu:alloy_blast_smelter"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "2035A4EF9D87ACD7"
+					item: "gtceu:heat_vent"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1F0956C3BD4745A1"]
+			description: ["Now you can make a large version of a single-block machine, with a better booster over the frequency, while supporting parallels."]
+			icon: "gtceu:large_material_press"
+			icon_scale: 2.0d
+			id: "1FACFECB6C5962E3"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2F1127262F7ACA6C"
+					title: "Large machine."
+					type: "checkmark"
+				}
+				{
+					id: "28CA024A75969F52"
+					item: "gtceu:iv_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0526B4AC0CAF99A5"
+				"15580C25FF239402"
+			]
+			description: ["LuVMain material for the phase"]
+			hide_dependent_lines: true
+			id: "4BFA114E12BCB163"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "121BAC69F16DF2AF"
+				item: "gtceu:rhodium_plated_palladium_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["It can be phosphorized, or it can be in quantum. Eye"]
+			icon_scale: 2.0d
+			id: "68A3D32BFF9BF7F3"
+			tasks: [{
+				id: "05E8D6C7043D0BCD"
+				item: "gtceu:qbit_cpu_chip"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["High-speed steel(HSS)It's a more grinding steel alloy."]
+			id: "62B67704211A105D"
+			tasks: [{
+				id: "75763C7F36454825"
+				item: "gtceu:hssg_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"62B67704211A105D"
+				"079CD9FD65CB2ED2"
+			]
+			icon_scale: 2.0d
+			id: "7DCA0B7C9F3C3ACF"
+			tasks: [{
+				id: "0D25CA72C05B394F"
+				item: "gtceu:hssg_coil_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7DCA0B7C9F3C3ACF"]
+			id: "2A81EA75E3DD41A3"
+			tasks: [
+				{
+					id: "3F58471B4B491DD6"
+					item: "gtceu:hsse_ingot"
+					type: "item"
+				}
+				{
+					id: "061B78C4A8F3772C"
+					item: "gtceu:hsss_ingot"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2A81EA75E3DD41A3"
+				"079CD9FD65CB2ED2"
+				"7531D52AF313CEEB"
+			]
+			description: ["IVStage circuits can be used."]
+			id: "4604207A60F04214"
+			tasks: [
+				{
+					id: "54EBA1E915CCDDAC"
+					item: "gtceu:advanced_smd_transistor"
+					type: "item"
+				}
+				{
+					id: "1743212DEA6120B0"
+					item: "gtceu:advanced_smd_resistor"
+					type: "item"
+				}
+				{
+					id: "7C65FDD089837CA1"
+					item: "gtceu:advanced_smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "38EF641F76BC06F9"
+					item: "gtceu:advanced_smd_diode"
+					type: "item"
+				}
+				{
+					id: "17178C475BF5FB0D"
+					item: "gtceu:advanced_smd_inductor"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			hide_dependent_lines: true
+			id: "079CD9FD65CB2ED2"
+			tasks: [{
+				id: "6C5DFE407694E794"
+				item: "gtceu:iv_assembler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: [
+				"PBINew plastic."
+				"It's troublesome.,And it's a big demand."
+			]
+			hide_dependent_lines: true
+			id: "7531D52AF313CEEB"
+			tasks: [{
+				id: "647AACA023F507D1"
+				item: "gtceu:polybenzimidazole_plate"
+				type: "item"
+			}]
+			title: "New plastic."
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"68A3D32BFF9BF7F3"
+				"027B25761BD830C8"
+				"22795A09A3BD7344"
+			]
+			description: ["Quantum processor is the basic unit that uses quantum bits as information and can be located at the same time0和1The superimposed state allows quantum computers to perform complex computing tasks."]
+			icon_scale: 2.0d
+			id: "31AC84CBD7C26566"
+			tasks: [{
+				id: "30125C65F7525965"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["31AC84CBD7C26566"]
+			icon_scale: 2.0d
+			id: "3F0D5B17665DF1CE"
+			tasks: [{
+				id: "77F7DCDCA5B2558E"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3F0D5B17665DF1CE"]
+			icon_scale: 2.0d
+			id: "506BE1A622532375"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "4A198917EC175743"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["506BE1A622532375"]
+			icon_scale: 2.0d
+			id: "4E1A28AFF661CED0"
+			tasks: [{
+				id: "0851DE42F4AC5E9C"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["631707E722744406"]
+			id: "0FCA3B71669C8122"
+			tasks: [{
+				id: "431CBC4C1A32BCEC"
+				item: "gtceu:quantum_star"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FCA3B71669C8122"]
+			id: "27BA6EBA81622516"
+			tasks: [
+				{
+					id: "67E0235F740E8863"
+					item: "gtceu:iv_emitter"
+					type: "item"
+				}
+				{
+					id: "755A3CDD5C7A1643"
+					item: "gtceu:iv_sensor"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"148A5C927A0DCED1"
+				"3AD2F40B030A6BC8"
+				"382F3E7588A0AD5E"
+				"2CE5738B7A8225A6"
+			]
+			description: [
+				"It's expensive, but...IVAfter that."
+				"This requires assembly line data to run."
+				"No orderly input of articles and fluids"
+			]
+			icon_scale: 2.0d
+			id: "7F8C2ECC7CE2BF20"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "07456C679DEEEE04"
+				item: "gtceu:assembly_line"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["27BA6EBA81622516"]
+			id: "027B25761BD830C8"
+			tasks: [{
+				id: "57AB73EF21D31E54"
+				item: "gtceu:iv_circuit_assembler"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["027B25761BD830C8"]
+			description: ["Unable to use2Energy silo up."]
+			icon_scale: 2.0d
+			id: "30A0D221474FB44A"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "074FB16F523697D0"
+				item: "gtceu:large_circuit_assembler"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3EAC914AA2073B05"
+				"3B79A329196883EF"
+			]
+			id: "15F08D296DE33A44"
+			tasks: [{
+				id: "7472EEF5D4982552"
+				item: "gtceu:hpic_chip"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"15F08D296DE33A44"
+				"079CD9FD65CB2ED2"
+			]
+			description: ["Upgrade"]
+			id: "15580C25FF239402"
+			tasks: [{
+				id: "1C9F7F0D50ED81F7"
+				item: "gtceu:iv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7DCA0B7C9F3C3ACF"
+				"0526B4AC0CAF99A5"
+				"3ECA33037D940EAB"
+			]
+			description: ["IVSuperconductor"]
+			id: "02D426BE0947F123"
+			tasks: [{
+				id: "4FD9779EEB7F7F57"
+				item: "gtceu:samarium_iron_arsenic_oxide_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["02D426BE0947F123"]
+			id: "0F22A8CE63F369CA"
+			tasks: [{
+				id: "611CC6E7E5FEEA67"
+				item: "gtceu:iv_field_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E7344C133C99565"]
+			description: [
+				"Scan is the first step in the study.JEIThe items shown therein are placed with a flash memory for scanning, which will consume the item and place the data in the flash."
+				"Later, the formulation will require research on different data storage items, such as data balls, which will remain the same, but will use different data storage items."
+			]
+			id: "2CE5738B7A8225A6"
+			tasks: [{
+				id: "67F4026A97AD2839"
+				item: "gtceu:data_access_hatch"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7F8C2ECC7CE2BF20"
+				"2CEEFDACE7B13D5A"
+			]
+			description: ["High-volume data storage and data availability for multiple assembly lines"]
+			id: "5F0A175D6704A8D0"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "488C1A3FC0D7CCB6"
+				item: "gtceu:data_bank"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["148A5C927A0DCED1"]
+			description: ["It could be the last cutter."]
+			id: "3B79A329196883EF"
+			tasks: [{
+				id: "3F7925F1D16C107A"
+				item: "gtceu:iv_cutter"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["More advanced glass."]
+			hide_dependent_lines: true
+			id: "148A5C927A0DCED1"
+			tasks: [{
+				id: "62F5055E01F9396B"
+				item: "gtceu:laminated_glass"
+				type: "item"
+			}]
+			title: "New glass."
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			id: "22795A09A3BD7344"
+			tasks: [{
+				id: "7117E2CF984E0BF0"
+				item: "gtceu:fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0F22A8CE63F369CA"]
+			description: ["64Parallel furnaces"]
+			icon_scale: 2.0d
+			id: "52070757274DC2B4"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "2C69C2E860BDFB1B"
+				item: "gtceu:blaze_blast_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["Unexploited steam."]
+			icon_scale: 2.0d
+			id: "5744F6172D4E112B"
+			optional: true
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "7D98A152EE340D0E"
+				item: "gtceu:dimensionally_transcendent_steam_boiler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7DCA0B7C9F3C3ACF"
+				"02D426BE0947F123"
+				"5010011959CF5337"
+			]
+			id: "00E7CB7CD9296B1A"
+			tasks: [{
+				id: "2FB73F086EA348D8"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0F22A8CE63F369CA"
+				"00E7CB7CD9296B1A"
+			]
+			icon_scale: 2.0d
+			id: "36F5A40D3976E512"
+			rewards: [{
+				id: "4A04C411F24ADCCC"
+				item: "avaritia:cosmic_meatballs"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7F18BB34CB3491CD"
+					item: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_5_rocket"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 0L
+									Fluid: "minecraft:empty"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "450378C22CA36060"
+					item: "gtceu:rocket_fuel_h8n4c2o4_bucket"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1F0956C3BD4745A1"]
+			description: ["High temperatures for power generation and low temperatures for productive resources"]
+			icon_scale: 2.0d
+			id: "365298DB6520227A"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "2599970FD2D9C38B"
+				item: "gtceu:fission_reactor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["27BA6EBA81622516"]
+			description: ["SyncAEInventory"]
+			icon_scale: 2.0d
+			id: "5608182772E855EC"
+			tasks: [
+				{
+					id: "5165B2AF5BB3CD54"
+					item: "gtceu:me_stocking_input_bus"
+					type: "item"
+				}
+				{
+					id: "742D2DB2293262B4"
+					item: "gtceu:me_stocking_input_hatch"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D8241E627194099"]
+			id: "3AD2F40B030A6BC8"
+			tasks: [{
+				id: "311C889A68CDBC37"
+				item: "gtceu:assembly_line_unit"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0526B4AC0CAF99A5"]
+			id: "7D8241E627194099"
+			tasks: [{
+				id: "21095623F1E9DBD4"
+				item: "gtceu:ruridit_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"27BA6EBA81622516"
+				"15F08D296DE33A44"
+			]
+			hide_dependency_lines: true
+			id: "382F3E7588A0AD5E"
+			tasks: [{
+				id: "330473DB377410CA"
+				item: "gtceu:assembly_line_casing"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2CE5738B7A8225A6"]
+			description: ["Part of the formulation for assembly line needs a scanned flash."]
+			id: "7A4A5E773AC5C003"
+			tasks: [{
+				id: "04B8AC9FE06215AC"
+				item: "gtceu:iv_scanner"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"42129A63D97DDF28"
+				"4C43D30FD9B89965"
+			]
+			description: ["At this stage, I recommend you settle down and recreate you with a big machine.aeNext order. Choose a new way of generating electricity."]
+			hide_dependent_lines: true
+			id: "38480A52A13DA157"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "01068F963A96E633"
+				title: "PressureIV"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27BA6EBA81622516"]
+			description: ["64Parallel chiller"]
+			icon_scale: 2.0d
+			id: "4C4081C79D227D1F"
+			size: 2.0d
+			tasks: [{
+				id: "7066CF4FFEA3FD14"
+				item: "gtceu:cold_ice_freezer"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			id: "3ECA33037D940EAB"
+			tasks: [{
+				id: "7778FF7D320A8783"
+				item: "gtceu:samarium_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E7344C133C99565"]
+			description: ["Pay attention to the matching and try not to use it.MEEnter the warehouse."]
+			icon_scale: 2.0d
+			id: "29D4D49428BF7FF4"
+			tasks: [
+				{
+					id: "756B1B977B98059B"
+					item: "gtceu:digestion_tank"
+					type: "item"
+				}
+				{
+					id: "6B43A7F342845658"
+					item: "gtceu:dissolving_tank"
+					type: "item"
+				}
+			]
+			title: "It's two sets."
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["365298DB6520227A"]
+			description: ["Conversion of supercritical potassium sodium alloy to supercritical vapour for power generation for supercritical steam turbines"]
+			id: "24CE67689DD540B7"
+			optional: true
+			tasks: [{
+				id: "4B207AC62685A5B5"
+				item: "gtceu:heat_exchanger"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7F8C2ECC7CE2BF20"]
+			icon_scale: 2.0d
+			id: "585580AFDFACDDB8"
+			tasks: [{
+				id: "7D699FD179C16EB0"
+				item: "gtceu:auto_configuration_maintenance_hatch"
+				type: "item"
+			}]
+			title: "Five times faster!"
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["Your cable needs to start using more advanced rubber and resin."]
+			id: "7794BE986C48C92D"
+			tasks: [
+				{
+					id: "3BC56557E74FF20C"
+					item: "gtceu:silicone_rubber_plate"
+					type: "item"
+				}
+				{
+					id: "3BD63C09996689EA"
+					item: "gtceu:styrene_butadiene_rubber_plate"
+					type: "item"
+				}
+				{
+					id: "28E57547D89B2ED8"
+					item: "gtceu:polyphenylene_sulfide_foil"
+					type: "item"
+				}
+			]
+			title: "New rubber and resin"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "32ECBFC902A439D4"
+			subtitle: "Batch change template"
+			tasks: [{
+				id: "080EC529FC5008E4"
+				item: "gtlcore:pattern_modifier"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Tier5-IV"]
+	title: "Pressure"
+}

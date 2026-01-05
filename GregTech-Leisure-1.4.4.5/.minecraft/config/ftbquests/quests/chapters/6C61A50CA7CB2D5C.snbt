@@ -1,0 +1,2201 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6C61A50CA7CB2D5C"
+	group: "24F4987B35ABEE82"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_1_rocket"
+		tag: {
+			BotariumData: {
+				StoredFluids: [{
+					Amount: 0L
+					Fluid: "minecraft:empty"
+				}]
+			}
+		}
+	}
+	id: "6C61A50CA7CB2D5C"
+	order_index: 5
+	quest_links: [{
+		id: "7476D5287FB73239"
+		linked_quest: "335ED39019FC62E7"
+		x: 2.0d
+		y: 2.0d
+	}]
+	quests: [
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			icon_scale: 2.0d
+			id: "043B581110AB9161"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "3FD0AB8B3E23B1A9"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"71DFD2EF1B03BDAA"
+				"6CC32F9550D73065"
+				"6C93F5B2AF430594"
+				"079CCDAEE4AD2447"
+				"18EB3995478B2414"
+				"347CD713F71D41D0"
+				"0D865B38481F3106"
+			]
+			description: [""]
+			icon_scale: 2.0d
+			id: "18A773A6B710C658"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "0FEF16DD8A55FB39"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["009E71EC51F5B0EF"]
+			id: "71DFD2EF1B03BDAA"
+			tasks: [{
+				id: "13964F33CFA57B8E"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"079CCDAEE4AD2447"
+				"009E71EC51F5B0EF"
+			]
+			id: "18EB3995478B2414"
+			tasks: [{
+				id: "3BAF475CBE010CE7"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["009E71EC51F5B0EF"]
+			description: ["Total needs3Yeah.2It's a rocket.1One for the steel engine."]
+			id: "079CCDAEE4AD2447"
+			tasks: [{
+				id: "2349775386C0D068"
+				item: "ad_astra:steel_tank"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6CC32F9550D73065"
+				"009E71EC51F5B0EF"
+			]
+			id: "6C93F5B2AF430594"
+			tasks: [{
+				id: "0162567E930BB2AF"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["009E71EC51F5B0EF"]
+			description: ["Total needs14Yeah.6It's a rocket.8It's for rocket tails."]
+			id: "6CC32F9550D73065"
+			tasks: [{
+				id: "196EC79A333D03F9"
+				item: "ad_astra:iron_plate"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"009E71EC51F5B0EF"
+				"6911B25AA0545E24"
+			]
+			description: ["You do.64The bucket will take off."]
+			id: "347CD713F71D41D0"
+			tasks: [{
+				id: "1C2CBCEB171603A4"
+				item: "gtceu:rocket_fuel_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["009E71EC51F5B0EF"]
+			id: "0D865B38481F3106"
+			rewards: [{
+				id: "29C4EDC665FC5FB6"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "78106A40B925926E"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56B90821A3B41D67"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20162066E7AC33C8"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23E45AD825016BFD"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "It's a suit."
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"043B581110AB9161"
+				"1A48D2DB936FF632"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "009E71EC51F5B0EF"
+			tasks: [{
+				id: "18403D645ACF9211"
+				title: "Ready to go.T1"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["009E71EC51F5B0EF"]
+			id: "5977502EB593EFF4"
+			tasks: [{
+				id: "13F88C17E0CB1F79"
+				item: "gtceu:methanol_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["009E71EC51F5B0EF"]
+			id: "5246BC7D720ECE4A"
+			tasks: [{
+				id: "6625D07C32DDC7A0"
+				item: "gtceu:ammonia_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["009E71EC51F5B0EF"]
+			id: "77308962EE9DAA52"
+			tasks: [{
+				id: "1042F9FE861FDCFA"
+				item: "gtceu:hypochlorous_acid_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5977502EB593EFF4"
+				"5246BC7D720ECE4A"
+				"77308962EE9DAA52"
+			]
+			id: "6911B25AA0545E24"
+			tasks: [{
+				id: "0900F3F6F8460BFF"
+				item: "gtceu:dimethylhydrazine_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["18A773A6B710C658"]
+			icon: "ad_astra:moon_stone"
+			icon_scale: 2.0d
+			id: "23C2F99FC949AF0A"
+			rewards: [{
+				id: "5A008F62E47D1126"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_totem"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					dimension: "ad_astra:moon"
+					id: "2CCD7DD07A345FE5"
+					optional_task: true
+					type: "dimension"
+				}
+				{
+					id: "560602E8EACC8B7A"
+					item: "ad_astra:moon_cobblestone"
+					type: "item"
+				}
+			]
+			title: "Moon"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1AF18E39A3A062EC"
+				"33BF09337B6A9E03"
+			]
+			icon_scale: 2.0d
+			id: "683F6BF5F0151288"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "1BF49A9E58E5AB03"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63C8DD19C6B76899"]
+			id: "1AF18E39A3A062EC"
+			tasks: [{
+				id: "3DBC4234EB306F24"
+				item: "ad_astra:steel_plate"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"509A4CEE0C308165"
+				"3FBDEBFA58D0B01F"
+			]
+			id: "33BF09337B6A9E03"
+			tasks: [{
+				id: "573976A2941AAE9D"
+				item: "gtceu:rocket_fuel_rp_1_bucket"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["36EDAB1E6F9E8618"]
+			id: "3FBDEBFA58D0B01F"
+			tasks: [
+				{
+					id: "38B3D54BA79B5655"
+					item: "gtceu:rp_1_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "290ECF45289E9905"
+					type: "checkmark"
+				}
+			]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["63C8DD19C6B76899"]
+			id: "509A4CEE0C308165"
+			tasks: [
+				{
+					id: "4AFDE648EB424D67"
+					item: "gtceu:liquid_oxygen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0010D9422789330C"
+					type: "checkmark"
+				}
+			]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E2549EFE6D9AA7B"]
+			id: "36EDAB1E6F9E8618"
+			tasks: [
+				{
+					id: "560A66A757B837D8"
+					item: "gtceu:kerosene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0C2E89B247E0E85E"
+					type: "checkmark"
+				}
+			]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34BED884F1A28343"]
+			id: "4E2549EFE6D9AA7B"
+			tasks: [
+				{
+					id: "46EDDE8B99914FD7"
+					item: "gtceu:coal_tar_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "514363511A811AAA"
+					item: "gtceu:coke_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "412EC917430435D6"
+					type: "checkmark"
+				}
+			]
+			title: "Coal tar and coke powder"
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["63C8DD19C6B76899"]
+			id: "34BED884F1A28343"
+			tasks: [
+				{
+					id: "16752FF94443D990"
+					item: "gtceu:coal_gas_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "55034866BAB8E55C"
+					type: "checkmark"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1E7344C133C99565"]
+			hide_dependent_lines: true
+			id: "63C8DD19C6B76899"
+			tasks: [{
+				id: "384ACA3C35EF65EF"
+				title: "Ready to go.T2"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["683F6BF5F0151288"]
+			icon: "ad_astra:mars_stone"
+			icon_scale: 2.0d
+			id: "702471643821B0DE"
+			tasks: [
+				{
+					dimension: "ad_astra:mars"
+					id: "7429ACF48E70AF34"
+					optional_task: true
+					title: "Mars"
+					type: "dimension"
+				}
+				{
+					id: "0AB08618956CA74F"
+					item: "ad_astra:mars_cobblestone"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B65662B72C369E7"]
+			hide_dependent_lines: true
+			id: "123FD5A979F5750D"
+			tasks: [{
+				id: "510DE6C196A786EA"
+				title: "Ready to go.T3"
+				type: "checkmark"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"32E0200043820896"
+				"1C5997EE2E91844A"
+			]
+			icon_scale: 2.0d
+			id: "5F482FD80B1E9CB3"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "55C77A386AC3C452"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15EBA5EB9706DCD5"]
+			id: "32E0200043820896"
+			tasks: [{
+				id: "5573D2EB65A35E2C"
+				item: "ad_astra:steel_block"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["123FD5A979F5750D"]
+			id: "15EBA5EB9706DCD5"
+			tasks: [{
+				id: "0356FC0F1E13D250"
+				item: "gtceu:dense_tungsten_steel_plate"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A16D86A6B8963DC"]
+			dependency_requirement: "one_completed"
+			id: "1C5997EE2E91844A"
+			tasks: [{
+				id: "3F3C3022BE3E94AF"
+				item: "gtceu:dense_hydrazine_fuel_mixture_bucket"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["606199C34AD69974"]
+			id: "6A16D86A6B8963DC"
+			tasks: [
+				{
+					id: "3D5292F2889B4C26"
+					item: "gtceu:hydrazine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "408E65A78F512D05"
+					type: "checkmark"
+				}
+			]
+			x: 25.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"50E554A0F172FEF4"
+				"26490ED393A09C12"
+			]
+			id: "606199C34AD69974"
+			tasks: [
+				{
+					id: "1113D511CB4E0C7B"
+					item: "gtceu:hydrogen_peroxide_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5971D89094BE2377"
+					type: "checkmark"
+				}
+			]
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["123FD5A979F5750D"]
+			id: "50E554A0F172FEF4"
+			tasks: [
+				{
+					id: "52A3EA5288880E34"
+					item: "gtceu:anthracene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1477EA302B7D2C87"
+					type: "checkmark"
+				}
+			]
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["357F8943B37E231D"]
+			id: "26490ED393A09C12"
+			tasks: [
+				{
+					id: "5D55249FB2842404"
+					item: "gtceu:ethylanthrahydroquinone_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "40B7B5E346EE96BE"
+					type: "checkmark"
+				}
+			]
+			x: 23.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["589789F9FC81A557"]
+			description: ["This is a catalyst. You'll get it back in the next reaction."]
+			id: "357F8943B37E231D"
+			tasks: [
+				{
+					id: "0C831FE92299304B"
+					item: "gtceu:ethylanthraquinone_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "08D8871D66256B70"
+					type: "checkmark"
+				}
+			]
+			x: 22.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["706B6132C6C42BAE"]
+			id: "589789F9FC81A557"
+			tasks: [
+				{
+					id: "3C452C7920E689D1"
+					item: "gtceu:phthalic_anhydride_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "58879157D53270F7"
+					type: "checkmark"
+				}
+			]
+			x: 21.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7B3D7412BEA6862A"
+				"6C689993C9BCE006"
+			]
+			dependency_requirement: "one_completed"
+			id: "706B6132C6C42BAE"
+			tasks: [
+				{
+					id: "4F3B4AB73159303F"
+					item: "gtceu:phthalic_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5ED7461DEB480E59"
+					type: "checkmark"
+				}
+			]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["123FD5A979F5750D"]
+			id: "7B3D7412BEA6862A"
+			tasks: [
+				{
+					id: "713CDD966CF89ADF"
+					item: "gtceu:naphthalene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5B062BEDA570EC35"
+					type: "checkmark"
+				}
+			]
+			x: 20.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["123FD5A979F5750D"]
+			id: "6C689993C9BCE006"
+			tasks: [
+				{
+					id: "184F0AF60546CBA4"
+					item: "gtceu:dimethylbenzene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "62D498D596792A96"
+					type: "checkmark"
+				}
+			]
+			x: 20.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F482FD80B1E9CB3"]
+			icon: "ad_astra:venus_stone"
+			icon_scale: 2.0d
+			id: "602F48807D4A89A6"
+			tasks: [
+				{
+					dimension: "ad_astra:venus"
+					id: "6120571D7D2195C0"
+					optional_task: true
+					title: "Venus"
+					type: "dimension"
+				}
+				{
+					id: "78B145B588D4A27E"
+					item: "ad_astra:venus_cobblestone"
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F482FD80B1E9CB3"]
+			icon: "ad_astra:mercury_stone"
+			icon_scale: 2.0d
+			id: "240EDC34562E580F"
+			tasks: [
+				{
+					dimension: "ad_astra:mercury"
+					id: "75BE9C3C745B47E6"
+					optional_task: true
+					title: "Mercury"
+					type: "dimension"
+				}
+				{
+					id: "4F66F12F3196F92E"
+					item: "ad_astra:mercury_cobblestone"
+					type: "item"
+				}
+			]
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AEC0D308494C0F8"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "187BE1A67AF10798"
+			tasks: [{
+				id: "1F5143D93FEC05B0"
+				title: "Ready to go.T4"
+				type: "checkmark"
+			}]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"319C0E4BEAC04A0B"
+				"702FD56CE44EC704"
+				"04681E3BD6F2CF5F"
+				"3CB4691B75D15158"
+			]
+			icon_scale: 2.0d
+			id: "27A7B0A7984A95E2"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "2204C487CC933D37"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 36.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04681E3BD6F2CF5F"]
+			id: "702FD56CE44EC704"
+			tasks: [{
+				id: "786550BEFBFEFA9D"
+				item: "ad_astra:desh_tank"
+				type: "item"
+			}]
+			x: 34.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["04681E3BD6F2CF5F"]
+			id: "319C0E4BEAC04A0B"
+			tasks: [{
+				id: "4FE6718F1D28FC3D"
+				item: "ad_astra:desh_engine"
+				type: "item"
+			}]
+			x: 34.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2BDEEF40A69151F5"]
+			id: "04681E3BD6F2CF5F"
+			tasks: [{
+				id: "59F4ABB36634A0A1"
+				item: "ad_astra:desh_plate"
+				type: "item"
+			}]
+			x: 33.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["187BE1A67AF10798"]
+			id: "2BDEEF40A69151F5"
+			tasks: [{
+				id: "486C2ED3FDA620F9"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: 31.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48E9439ABC35D129"]
+			id: "3CB4691B75D15158"
+			tasks: [{
+				id: "22A97D23795E4286"
+				item: "gtceu:rocket_fuel_cn3h7o3_bucket"
+				type: "item"
+			}]
+			x: 36.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["187BE1A67AF10798"]
+			hide_dependency_lines: true
+			id: "48E9439ABC35D129"
+			tasks: [
+				{
+					id: "01B057C002B715FF"
+					item: "gtceu:monomethylhydrazine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "141E95011AA0739D"
+					type: "checkmark"
+				}
+			]
+			x: 36.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27A7B0A7984A95E2"]
+			icon: "kubejs:ceresstone"
+			icon_scale: 2.0d
+			id: "5010011959CF5337"
+			tasks: [
+				{
+					dimension: "kubejs:ceres"
+					id: "4661CE23F70EE69E"
+					optional_task: true
+					title: "Calamity Star."
+					type: "dimension"
+				}
+				{
+					id: "7555B3FDBAE2F20D"
+					item: "kubejs:ceresstone"
+					type: "item"
+				}
+			]
+			x: 38.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["602F48807D4A89A6"]
+			icon_scale: 2.0d
+			id: "2BB52D1C09C418A9"
+			tasks: [{
+				id: "7EC35064B342F50D"
+				item: "kubejs:nether_data"
+				type: "item"
+			}]
+			x: 29.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23C2F99FC949AF0A"]
+			id: "603ED43DD7A89BF3"
+			tasks: [
+				{
+					id: "734B4AC51FAF51DA"
+					item: "gtceu:raw_bauxite"
+					type: "item"
+				}
+				{
+					id: "5EA3102A28A00339"
+					item: "gtceu:raw_ilmenite"
+					type: "item"
+				}
+				{
+					id: "6E41CC1205203487"
+					item: "gtceu:raw_aluminium"
+					type: "item"
+				}
+				{
+					id: "7BD806947FFC69BA"
+					item: "gtceu:raw_uraninite"
+					type: "item"
+				}
+				{
+					id: "7E6AB6B1F16EFB41"
+					item: "gtceu:raw_pitchblende"
+					type: "item"
+				}
+				{
+					id: "2CE2A66C255AC323"
+					item: "gtceu:raw_thorium"
+					type: "item"
+				}
+				{
+					id: "329C5B93ECCB6FE0"
+					item: "gtceu:raw_bastnasite"
+					type: "item"
+				}
+				{
+					id: "6B80D3BC373D553B"
+					item: "gtceu:raw_monazite"
+					type: "item"
+				}
+				{
+					id: "0930EE8B3FE52194"
+					item: "gtceu:raw_neodymium"
+					type: "item"
+				}
+			]
+			title: "The moon's mine."
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23C2F99FC949AF0A"]
+			id: "2E189BB17587F157"
+			tasks: [
+				{
+					id: "4F4581A6BBDA7AAE"
+					item: "gtceu:helium_bucket"
+					type: "item"
+				}
+				{
+					id: "1E449DEB2B7B3063"
+					item: "gtceu:helium_3_bucket"
+					type: "item"
+				}
+			]
+			title: "The lunar fluid vein."
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["702471643821B0DE"]
+			id: "3D5E0BA1F8F013FC"
+			tasks: [
+				{
+					id: "7B362C2D0A3F2B34"
+					item: "gtceu:raw_scheelite"
+					type: "item"
+				}
+				{
+					id: "5868448726EB5F85"
+					item: "gtceu:raw_tungstate"
+					type: "item"
+				}
+				{
+					id: "4340E734E1FCE59F"
+					item: "gtceu:raw_lithium"
+					type: "item"
+				}
+				{
+					id: "67BCA48FD653C9D5"
+					item: "gtceu:raw_cooperite"
+					type: "item"
+				}
+				{
+					id: "4F64CB1271C10AD6"
+					item: "gtceu:raw_bornite"
+					type: "item"
+				}
+				{
+					id: "36885808EF010639"
+					item: "gtceu:raw_platinum"
+					type: "item"
+				}
+				{
+					id: "2945D20FC740FB45"
+					item: "gtceu:raw_palladium"
+					type: "item"
+				}
+				{
+					id: "49159B1279181E8F"
+					item: "gtceu:raw_pyrochlore"
+					type: "item"
+				}
+				{
+					id: "41E24DC7270AF2D1"
+					item: "gtceu:raw_apatite"
+					type: "item"
+				}
+				{
+					id: "02C7ED74D08CBD20"
+					item: "gtceu:raw_tricalcium_phosphate"
+					type: "item"
+				}
+			]
+			title: "Mars mines."
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["702471643821B0DE"]
+			id: "457BA0CCBA39709A"
+			tasks: [{
+				id: "61D3F1750DE46B40"
+				item: "gtceu:radon_bucket"
+				type: "item"
+			}]
+			title: "The fluid vein of Mars."
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["602F48807D4A89A6"]
+			description: [""]
+			id: "66BBE21B86B35170"
+			tasks: [
+				{
+					id: "053580F012F38F61"
+					item: "gtceu:raw_desh"
+					type: "item"
+				}
+				{
+					id: "0133550C8342EFE1"
+					item: "gtceu:raw_magnesite"
+					type: "item"
+				}
+				{
+					id: "576FEDA169E057F5"
+					item: "gtceu:raw_sulfur"
+					type: "item"
+				}
+				{
+					id: "61DF7F4FD46F331E"
+					item: "gtceu:raw_pyrite"
+					type: "item"
+				}
+				{
+					id: "34BAD952486803D1"
+					item: "gtceu:raw_sphalerite"
+					type: "item"
+				}
+				{
+					id: "23C0BD54CD211593"
+					item: "gtceu:raw_bentonite"
+					type: "item"
+				}
+				{
+					id: "589DD66CA5B99DFA"
+					item: "gtceu:raw_magnetite"
+					type: "item"
+				}
+				{
+					id: "2C3A195F85EA60B6"
+					item: "gtceu:raw_olivine"
+					type: "item"
+				}
+				{
+					id: "5157C46CB2B214A2"
+					item: "gtceu:raw_glauconite_sand"
+					type: "item"
+				}
+			]
+			title: "The mine of Venus."
+			x: 27.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["240EDC34562E580F"]
+			id: "755BA509E954B7DC"
+			tasks: [
+				{
+					id: "6428D6EEAEE1BA91"
+					item: "gtceu:raw_calorite"
+					type: "item"
+				}
+				{
+					id: "478CD9D688916D24"
+					item: "gtceu:raw_cobalt"
+					type: "item"
+				}
+				{
+					id: "35C30A631D599917"
+					item: "gtceu:raw_magnesite"
+					type: "item"
+				}
+				{
+					id: "5DD0B8141CB6F828"
+					item: "gtceu:raw_garnierite"
+					type: "item"
+				}
+				{
+					id: "1127E4740231AECC"
+					item: "gtceu:raw_nickel"
+					type: "item"
+				}
+				{
+					id: "659704C6C7AD926D"
+					item: "gtceu:raw_cobaltite"
+					type: "item"
+				}
+				{
+					id: "7BC6862957021AA4"
+					item: "gtceu:raw_pentlandite"
+					type: "item"
+				}
+			]
+			title: "Mercury mine."
+			x: 28.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["602F48807D4A89A6"]
+			id: "01CE2C1DC8A32201"
+			tasks: [{
+				id: "17B5CE2CD59AA220"
+				item: "gtceu:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			title: "The meteorite vein of Venus."
+			x: 27.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["240EDC34562E580F"]
+			id: "4384E49FECF0451D"
+			tasks: [{
+				id: "068685245F0512CB"
+				item: "gtceu:deuterium_bucket"
+				type: "item"
+			}]
+			title: "Mercury's meteorite vein."
+			x: 28.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5010011959CF5337"]
+			id: "48DFA1EF82126177"
+			tasks: [{
+				id: "712CE912BBCC97FA"
+				item: "gtceu:raw_ostrum"
+				type: "item"
+			}]
+			title: "It's a mine of Tanigami."
+			x: 38.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5010011959CF5337"]
+			id: "41BAD19014E33CB2"
+			tasks: [
+				{
+					id: "1C9DDA595033297C"
+					item: "gtceu:neon_bucket"
+					type: "item"
+				}
+				{
+					id: "17B2C5CD61139B40"
+					item: "gtceu:krypton_bucket"
+					type: "item"
+				}
+				{
+					id: "0B78A22B254CF866"
+					item: "gtceu:radon_bucket"
+					type: "item"
+				}
+				{
+					id: "29F4B46653D2282E"
+					item: "gtceu:xenon_bucket"
+					type: "item"
+				}
+			]
+			title: "It's a meteorite vein of the Goliath."
+			x: 38.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2BB52D1C09C418A9"]
+			description: [
+				"Finally, we can go down."
+				"Use the ancient reactor to put emerald stones in the corner of the gold."
+			]
+			icon: "minecraft:nether_wart"
+			icon_scale: 2.0d
+			id: "778546543F6413E7"
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "46F65CA6CFE50917"
+					optional_task: true
+					title: "Hell."
+					type: "dimension"
+				}
+				{
+					id: "40B56454D2D9C8CC"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+			]
+			x: 29.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"21ABCDF5C4F8DA56"
+				"3FDEFC482256CD66"
+				"1DD2166E800E4311"
+				"75A54472EEAF6BB0"
+			]
+			icon_scale: 2.0d
+			id: "459ADFC4C826B296"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "408A175395E2C39A"
+				item: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_5_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 0L
+								Fluid: "minecraft:empty"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1DD2166E800E4311"]
+			id: "3FDEFC482256CD66"
+			tasks: [{
+				id: "3C5E0DFD65A2B324"
+				item: "ad_astra:ostrum_tank"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1DD2166E800E4311"]
+			id: "21ABCDF5C4F8DA56"
+			tasks: [{
+				id: "2168C9499000475E"
+				item: "ad_astra:ostrum_engine"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4AF53867138C5BDA"]
+			id: "1DD2166E800E4311"
+			tasks: [{
+				id: "669051BFFB5C1273"
+				item: "ad_astra:ostrum_plate"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5322AB6C014C301F"]
+			id: "4AF53867138C5BDA"
+			tasks: [{
+				id: "63F1A8FBBC359D84"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["38480A52A13DA157"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5322AB6C014C301F"
+			tasks: [{
+				id: "5FAC15E60CEBC936"
+				title: "Ready to go.T5"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5322AB6C014C301F"]
+			id: "75A54472EEAF6BB0"
+			tasks: [{
+				id: "33C81AA0CA99EAF5"
+				item: "gtceu:rocket_fuel_h8n4c2o4_bucket"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"2F56A0B77A38264B"
+				"7115413F9AB554BB"
+				"2E21FB9E04F9C325"
+				"191930A854469664"
+			]
+			icon_scale: 2.0d
+			id: "045213D417DE5A75"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "16809C9FCCE23728"
+				item: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_6_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 0L
+								Fluid: "minecraft:empty"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2F56A0B77A38264B"]
+			id: "7115413F9AB554BB"
+			tasks: [{
+				id: "3BE7A703E743FA3E"
+				item: "ad_astra:calorite_tank"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2F56A0B77A38264B"]
+			id: "2E21FB9E04F9C325"
+			tasks: [{
+				id: "04E0C423E8F68978"
+				item: "ad_astra:calorite_engine"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["165545C7E3F36727"]
+			id: "2F56A0B77A38264B"
+			tasks: [{
+				id: "67DF9C552F4B67BF"
+				item: "ad_astra:calorite_plate"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7EE091FC5E255C22"]
+			id: "165545C7E3F36727"
+			tasks: [{
+				id: "3C74DFAA3271AC68"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4BFA114E12BCB163"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7EE091FC5E255C22"
+			tasks: [{
+				id: "7D768C7E49D71356"
+				title: "Ready to go.T6"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7EE091FC5E255C22"]
+			id: "191930A854469664"
+			tasks: [{
+				id: "22DB27707E826EAF"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"7B19818378510998"
+				"72ED3FB127914FD7"
+			]
+			icon_scale: 2.0d
+			id: "7F2F3993847A837B"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "6FC1EFAE4A36FFD1"
+				item: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_7_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 0L
+								Fluid: "minecraft:empty"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 30.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["72ED3FB127914FD7"]
+			id: "7B19818378510998"
+			tasks: [{
+				id: "3BEC6C89E3401479"
+				item: "gtceu:stellar_energy_rocket_fuel_bucket"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0485D45408234C99"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "72ED3FB127914FD7"
+			tasks: [{
+				id: "7224D725A4FDC289"
+				title: "Ready to go.T7"
+				type: "checkmark"
+			}]
+			x: 28.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["459ADFC4C826B296"]
+			icon: "kubejs:iostone"
+			icon_scale: 2.0d
+			id: "73613E3EBEFFB326"
+			tasks: [
+				{
+					dimension: "kubejs:io"
+					id: "322F6EC282672EDF"
+					optional_task: true
+					title: "Io!"
+					type: "dimension"
+				}
+				{
+					id: "15E9748008958D52"
+					item: "kubejs:iostone"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["459ADFC4C826B296"]
+			icon: "kubejs:ganymedestone"
+			icon_scale: 2.0d
+			id: "761877FE2F5E2E2E"
+			tasks: [
+				{
+					dimension: "kubejs:ganymede"
+					id: "1C809A36C617A480"
+					optional_task: true
+					title: "Io-san."
+					type: "dimension"
+				}
+				{
+					id: "65AC27BA85204DB0"
+					item: "kubejs:ganymedestone"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["73613E3EBEFFB326"]
+			id: "793E9EC16B16BA5C"
+			tasks: [
+				{
+					id: "7A60CC225A62E827"
+					item: "gtceu:raw_naquadah"
+					type: "item"
+				}
+				{
+					id: "04B98AF7EBA6D607"
+					item: "gtceu:raw_celestine"
+					type: "item"
+				}
+				{
+					id: "59EB363E1AF4A068"
+					item: "gtceu:raw_trona"
+					type: "item"
+				}
+			]
+			title: "Io's mine."
+			x: 12.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["73613E3EBEFFB326"]
+			id: "2A2DDCC3A347CCFC"
+			tasks: [{
+				id: "5E5086AB16E5F4B3"
+				item: "gtceu:coal_gas_bucket"
+				type: "item"
+			}]
+			title: "Io's fluid vein."
+			x: 12.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["761877FE2F5E2E2E"]
+			id: "20AD3C5F77D665FC"
+			tasks: [{
+				id: "77526A485334B9A0"
+				item: "gtceu:hydrochloric_acid_bucket"
+				type: "item"
+			}]
+			title: "Io-san's fluid vein."
+			x: 13.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["761877FE2F5E2E2E"]
+			id: "5A5C5923DADD33E5"
+			tasks: [{
+				id: "31F911C5925689BB"
+				item: "gtceu:raw_zircon"
+				type: "item"
+			}]
+			title: "Io-san's mine."
+			x: 13.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["045213D417DE5A75"]
+			icon: "kubejs:plutostone"
+			icon_scale: 2.0d
+			id: "61140578961B01A9"
+			tasks: [
+				{
+					dimension: "kubejs:pluto"
+					id: "31DA86E1A97BF813"
+					optional_task: true
+					title: "Pluto."
+					type: "dimension"
+				}
+				{
+					id: "6C5FCBBCCD24040E"
+					item: "kubejs:plutostone"
+					type: "item"
+				}
+			]
+			x: 23.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["045213D417DE5A75"]
+			icon: "kubejs:enceladusstone"
+			icon_scale: 2.0d
+			id: "22B38057B7705160"
+			tasks: [
+				{
+					dimension: "kubejs:enceladus"
+					id: "41C8995FDDD8DF81"
+					optional_task: true
+					title: "Titan."
+					type: "dimension"
+				}
+				{
+					id: "5BF9CBFA9E400E52"
+					item: "kubejs:enceladusstone"
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["045213D417DE5A75"]
+			icon: "kubejs:titanstone"
+			icon_scale: 2.0d
+			id: "7E8D49D03B9CF783"
+			tasks: [
+				{
+					dimension: "kubejs:titan"
+					id: "2660E03A1F112547"
+					optional_task: true
+					title: "Titan."
+					type: "dimension"
+				}
+				{
+					id: "4A144A8E63383664"
+					item: "kubejs:titanstone"
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["61140578961B01A9"]
+			description: ["The left hand holds the end of the field, the right hand takes the eye of the end of the field, and it's lit once."]
+			icon_scale: 2.0d
+			id: "2AE3DE0BC3CD1D5B"
+			tasks: [{
+				id: "0F4C07DD6A1BB112"
+				item: "kubejs:end_data"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2AE3DE0BC3CD1D5B"]
+			icon: "minecraft:dragon_head"
+			icon_scale: 2.0d
+			id: "5E3EDA6C94CEC3C4"
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "0FC672E8CA7E4414"
+					optional_task: true
+					title: "The end."
+					type: "dimension"
+				}
+				{
+					id: "01FF8004FA2CF00E"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+			]
+			x: 26.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["61140578961B01A9"]
+			id: "72053827D58EF156"
+			tasks: [{
+				id: "66BE265D649EB639"
+				item: "gtceu:nitric_acid_bucket"
+				type: "item"
+			}]
+			title: "Pluto's fluid vein."
+			x: 23.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["22B38057B7705160"]
+			id: "55918DAD44A0C882"
+			tasks: [
+				{
+					id: "663DF3FA4783DFB6"
+					item: "gtceu:chlorine_bucket"
+					type: "item"
+				}
+				{
+					id: "25D3E0C068BC8AFF"
+					item: "gtceu:fluorine_bucket"
+					type: "item"
+				}
+			]
+			title: "The fluid vein of Titan."
+			x: 24.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7E8D49D03B9CF783"]
+			id: "68E3E08DF18CC2C5"
+			tasks: [
+				{
+					id: "58832CB953B7CBD2"
+					item: "gtceu:methane_bucket"
+					type: "item"
+				}
+				{
+					id: "44D33818118A4848"
+					item: "gtceu:benzene_bucket"
+					type: "item"
+				}
+				{
+					id: "19643D23DDE3A4A1"
+					item: "gtceu:charcoal_byproducts_bucket"
+					type: "item"
+				}
+			]
+			title: "Titan's fluid vein."
+			x: 25.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7F2F3993847A837B"]
+			icon: "ad_astra:glacio_stone"
+			icon_scale: 2.0d
+			id: "25AA088531768F81"
+			tasks: [
+				{
+					dimension: "ad_astra:glacio"
+					id: "7016F7E78116220B"
+					optional_task: true
+					title: "Frost Star."
+					type: "dimension"
+				}
+				{
+					id: "3ED53E0C61B41595"
+					item: "ad_astra:glacio_cobblestone"
+					type: "item"
+				}
+			]
+			x: 31.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["25AA088531768F81"]
+			icon_scale: 2.0d
+			id: "76EA305BEB66FA42"
+			tasks: [{
+				id: "3F23E72784A107E4"
+				item: "kubejs:glacio_spirit"
+				type: "item"
+			}]
+			title: "Frost Star specialty."
+			x: 31.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7C23CC6ADDC33EA0"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5A185A4065DD7FCF"
+			tasks: [{
+				id: "7A40F8D4992B0D2A"
+				title: "Ready to go.T8"
+				type: "checkmark"
+			}]
+			x: 34.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5A185A4065DD7FCF"]
+			description: ["Need one.128Calculator."]
+			icon_scale: 2.0d
+			id: "60FA18C7093410F8"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "591DE1FAA4F7D9C3"
+				item: "gtceu:space_elevator"
+				type: "item"
+			}]
+			x: 36.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["60FA18C7093410F8"]
+			icon: "kubejs:barnarda_log"
+			icon_scale: 2.0d
+			id: "7796B2AE8F20C564"
+			tasks: [
+				{
+					dimension: "kubejs:barnarda"
+					id: "4C86D85114E0D472"
+					optional_task: true
+					title: "Barnard.C"
+					type: "dimension"
+				}
+				{
+					id: "03FE5121F10BA46D"
+					item: "kubejs:barnarda_log"
+					type: "item"
+				}
+			]
+			x: 38.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7796B2AE8F20C564"]
+			id: "34B06A20D5B71CC9"
+			tasks: [{
+				id: "7DC96849FFCF07D7"
+				item: "gtceu:unknowwater_bucket"
+				type: "item"
+			}]
+			title: "Barnard.CThe fluid vein."
+			x: 38.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["23C2F99FC949AF0A"]
+			description: ["It's enough for each planet to fly once."]
+			id: "21D8A596F5BE438E"
+			optional: true
+			rewards: [{
+				command: "/execute in ad_astra:moon run tp 0 200 0"
+				elevate_perms: true
+				id: "68C04E0EA66271B7"
+				type: "command"
+			}]
+			tasks: [{
+				id: "2412EE7E9063BDA3"
+				title: "To the moon."
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["702471643821B0DE"]
+			id: "10BFE6FF4FE640CF"
+			optional: true
+			rewards: [{
+				command: "/execute in ad_astra:mars run tp 0 200 0"
+				elevate_perms: true
+				id: "515FE430072534D3"
+				type: "command"
+			}]
+			tasks: [{
+				id: "66C8190979BFB1CA"
+				title: "To Mars."
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["602F48807D4A89A6"]
+			id: "07645AD74EFE2F30"
+			optional: true
+			rewards: [{
+				command: "/execute in ad_astra:venus run tp 0 200 0"
+				elevate_perms: true
+				id: "4947CE478EC8131D"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4D5EAA5BD05BC8EE"
+				title: "To Venus."
+				type: "checkmark"
+			}]
+			x: 27.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["240EDC34562E580F"]
+			id: "78CA1579D445E245"
+			optional: true
+			rewards: [{
+				command: "/execute in ad_astra:mercury run tp 0 200 0"
+				elevate_perms: true
+				id: "109555A7B7DC83BA"
+				type: "command"
+			}]
+			tasks: [{
+				id: "65E12B4243187B9D"
+				title: "To Mercury."
+				type: "checkmark"
+			}]
+			x: 28.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5010011959CF5337"]
+			id: "5DDB65F09BF7CB42"
+			optional: true
+			rewards: [{
+				command: "/execute in kubejs:ceres run tp 0 200 0"
+				elevate_perms: true
+				id: "5DABDE58E85A1554"
+				type: "command"
+			}]
+			tasks: [{
+				id: "424BF1AD5819C169"
+				title: "Go to Shibuya."
+				type: "checkmark"
+			}]
+			x: 38.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["73613E3EBEFFB326"]
+			id: "0605583CFB358CAA"
+			optional: true
+			rewards: [{
+				command: "/execute in kubejs:io run tp 0 200 0"
+				elevate_perms: true
+				id: "1B9F96DC71464F25"
+				type: "command"
+			}]
+			tasks: [{
+				id: "02714C21C6345C06"
+				title: "Io."
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["761877FE2F5E2E2E"]
+			id: "523A8CBF30530A08"
+			optional: true
+			rewards: [{
+				command: "/execute in kubejs:ganymede run tp 0 200 0"
+				elevate_perms: true
+				id: "1D27BEFA544DC7B3"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3FE00886E723F536"
+				title: "Io-san."
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["61140578961B01A9"]
+			id: "03EB99A257E23BB0"
+			optional: true
+			rewards: [{
+				command: "/execute in kubejs:pluto run tp 0 200 0"
+				elevate_perms: true
+				id: "66072C4B76BF5F96"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3BACCC11A97FD667"
+				title: "To Pluto."
+				type: "checkmark"
+			}]
+			x: 23.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["22B38057B7705160"]
+			id: "5F4A69C996774D27"
+			optional: true
+			rewards: [{
+				command: "/execute in kubejs:enceladus run tp 0 200 0"
+				elevate_perms: true
+				id: "06FD20BA0DFAD74B"
+				type: "command"
+			}]
+			tasks: [{
+				id: "40D2A94D63372038"
+				title: "To Titan."
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7E8D49D03B9CF783"]
+			id: "42E7589D84B33100"
+			optional: true
+			rewards: [{
+				command: "/execute in kubejs:titan run tp 0 200 0"
+				elevate_perms: true
+				id: "5B3F450A220D031D"
+				type: "command"
+			}]
+			tasks: [{
+				id: "026940E80D77F49F"
+				title: "To Titan."
+				type: "checkmark"
+			}]
+			x: 25.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7796B2AE8F20C564"]
+			id: "49CD5A099F2C481D"
+			optional: true
+			rewards: [{
+				command: "/execute in kubejs:barnarda run tp 0 200 0"
+				elevate_perms: true
+				id: "088F8105E0E97885"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4809719A86B423CA"
+				title: "To Barnard.C"
+				type: "checkmark"
+			}]
+			x: 38.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["25AA088531768F81"]
+			id: "308E80493652A74D"
+			optional: true
+			rewards: [{
+				command: "/execute in ad_astra:glacio run tp 0 200 0"
+				elevate_perms: true
+				id: "23A2A64020DAD06D"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3358381CBFE3BCD9"
+				title: "To Frost."
+				type: "checkmark"
+			}]
+			x: 31.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["335ED39019FC62E7"]
+			description: ["Make it easy for you."]
+			id: "2A7DCD5C4BED8E3D"
+			optional: true
+			rewards: [{
+				command: "/execute in kubejs:ancient_world run tp 0 200 0"
+				elevate_perms: true
+				id: "22B3FCAD4E46DCCA"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3E0B96E6350FED35"
+				title: "To the ancient world."
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["778546543F6413E7"]
+			id: "18316E48C29988B5"
+			optional: true
+			rewards: [{
+				command: "/execute in minecraft:the_nether run tp 0 100 0"
+				elevate_perms: true
+				id: "4CEB0A83900FB9A9"
+				type: "command"
+			}]
+			tasks: [{
+				id: "5EFD4C3F8B5176EB"
+				title: "To hell."
+				type: "checkmark"
+			}]
+			x: 29.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5E3EDA6C94CEC3C4"]
+			id: "1308E1F15E72F288"
+			optional: true
+			rewards: [{
+				command: "/execute in minecraft:the_end run tp 0 200 0"
+				elevate_perms: true
+				id: "7FA690EB17C46096"
+				type: "command"
+			}]
+			tasks: [{
+				id: "68B276212C9C1722"
+				title: "To the end."
+				type: "checkmark"
+			}]
+			x: 26.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["18A773A6B710C658"]
+			description: [
+				"There's no gravity here."
+				""
+				"Production of space station materials1A steel engine.16A microprocessor supercomputer.16Space-grade iron plates and64A steel sun."
+			]
+			icon: "gtceu:quantum_eye"
+			icon_scale: 2.0d
+			id: "3A48F268FB265977"
+			tasks: [
+				{
+					dimension: "ad_astra:earth_orbit"
+					id: "43A03BBB4763EE69"
+					optional_task: true
+					title: "Earth Station"
+					type: "dimension"
+				}
+				{
+					id: "2DC081A5022B8300"
+					item: "gtceu:quantum_eye"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3A48F268FB265977"]
+			id: "57BCF2B955E86FD0"
+			optional: true
+			rewards: [{
+				command: "/execute in ad_astra:earth_orbit run tp 0 100 0"
+				elevate_perms: true
+				id: "628ADDAA3706986F"
+				type: "command"
+			}]
+			tasks: [{
+				id: "5E4E4C0BADB6CC44"
+				title: "To the Earth Station."
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			id: "4BCBB3270D825F0E"
+			optional: true
+			rewards: [{
+				command: "/execute in minecraft:overworld run tp 0 200 0"
+				elevate_perms: true
+				id: "5C977ABA2F4861A9"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6261241DFF0B95E0"
+				title: "Lord World"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "To explore the world."
+}

@@ -1,0 +1,169 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "367D3E683D1387D0"
+	group: "24F4987B35ABEE82"
+	icon: "gtceu:lv_bender"
+	id: "367D3E683D1387D0"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"When building multiple blocks,There are two very important elements to understand.."
+				"InspectionJEI,And remain flexible."
+				"Rotates the preview with the mouse and hovers over the blocks used to see additional information."
+				"JEIThe page also contains a list of the ingredients that you want. You can also click on the square in the preview right-click to get the display of all the blocks that you can use at that particular location."
+			]
+			icon: "gtceu:primitive_blast_furnace"
+			id: "089598D2954FFEE1"
+			rewards: [{
+				id: "36CD5C643C041455"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E513D8C801559EC"
+				title: "Multiple block structure formation"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Maximum for multiple blocksEU/tMust be bigger than the formula.EU/t。"
+				"Check to maintain."
+				"Possible special requirements to check the formulation"
+				"Make sure you put the item right on the bus./Silo."
+				"Make sure there's room for output."
+				"The silence must be in the air."
+				"Maybe multiple blocks have formed, but you forgot a warehouse."
+			]
+			icon: "gtceu:maintenance_hatch"
+			id: "498CB29FA7447C46"
+			rewards: [{
+				id: "6F0F202CEF4CCFD7"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44CA2F43F475CFD9"
+				title: "Reasons for not working"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"The electric furnaces smelt the articles at a certain temperature, depending on the type of wiring used, and fromHVAt first, every voltage level increases.100KThe temperature."
+				"What's the impact? There's a specific base temperature for each high-power furnace formulation, e.g., aluminium in1700KSmelting, if the temperature is not high enough, the formulation will not be implemented and if the temperature is high enough, the time will be reduced."
+			]
+			icon: "kubejs:uruium_coil_block"
+			id: "2205C5F410B9C4DB"
+			rewards: [{
+				id: "67F6BBF7159FD130"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50F636D9BF4F6025"
+				title: "Loop"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Multiple block structures check the availability of sufficient electricity before work."
+				"The plethora of power that can be consumed is the sum of all energy."
+				"For example, electricity needs at least one.120EU/tThe power input that runs the formula can be used in two.LVEnergy warehouse achieved, per warehouse required2Amber's.LV，That's why I need it all.4Amber's.LVTo Maximum128EU/tThe power."
+				"This allows for low voltage grade treatment of high voltage grade formulations."
+			]
+			icon: "gtceu:lv_energy_input_hatch"
+			id: "0BADECF30AC0BAC4"
+			rewards: [{
+				id: "74229AAB3C2222DD"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23E71635D04A5A77"
+				title: "Electricity"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"It's the key to multi-block structure input and output./The warehouse will provide more space."
+				"Bus/The warehouse also contains an automatic input-output function, which can be controlled by a switch."
+			]
+			icon: "gtceu:lv_input_bus"
+			id: "5DB8BE71B3733C36"
+			rewards: [{
+				id: "7B4ECA8505F078B1"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35761A42191E549C"
+				title: "Bus/仓"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"将16台LVThe machine runs at the same time. Power and one.HVThe machine is equal, but the speed is one.HVFour times the machine. Because...16台LVThere was no damage to the machine from the impairment of the frequency. It's causing it to do it faster at a lower rate. The parallel structure of multiple blocks is a similar concept. In short, parallel is an alternative non-destructive hyperfrequency."
+				"Warning: When you re-use the parallel warehouse, the voltage of the machine will drop first according to the number of parallels."
+			]
+			icon: "gtceu:iv_parallel_hatch"
+			id: "6F503441C24ABD5B"
+			rewards: [{
+				id: "749E6E378FFF375B"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B1CC517916931AB"
+				title: "Parallel"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&7Heads&rIt should be obvious.&9Output&rIt's the one with a little or a hole.."
+				""
+				"The machine can work through their output.&aAutooutput&r，To enable automatic output, please inGUIin which you click the corresponding button, and the automatic output of the fluid and the article is to be switched individually, by&dOverwrite&rYou can further control automatic output."
+				""
+				"Use&5Wrench.&rThe right-hand machine can change the output side, and...shift-Right shot can change the face."
+				""
+				"By default, articles and fluids cannot be inserted through the output side, but can be used&5A screwdriver.&rToggle, direct right to the output side, orshift-Right-to-outside grid."
+				""
+				"There are some unique machines that don't process formulas, like&3泵&r，&3Mining machines&r，&3Fishing machine&r，&3Items collector&rWait, these machines will be in them.&7Heads&rOutput(Still Mark as Point)。"
+			]
+			icon: "minecraft:hopper"
+			id: "2B1992E2158E63A2"
+			rewards: [{
+				id: "0908FF95BE82979B"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A68620AD827B0E5"
+				title: "Machine Logistics"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+	]
+	title: "Machine"
+}

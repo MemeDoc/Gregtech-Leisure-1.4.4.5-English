@@ -1,0 +1,174 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1F2D08F4FEF1CEDC"
+	group: "24F4987B35ABEE82"
+	icon: "gtceu:lv_sodium_battery"
+	id: "1F2D08F4FEF1CEDC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The energy system in Gray Tech is not as simple as the energy system in other technology models.."
+				"The energy unit of Gray Tech is...EU，Distinguishing from use with other modulesFE。"
+				"EUThe mechanism is not similar to electricity in the real world."
+				"Power= ElectricityxElectricity"
+				"Energy=PowerxTime"
+				"Electrical resistance is an excluded concept in Greytech, but is modelled in part on cable depletion."
+				"Gray Tech is defined as follows::"
+				"- EUIt's a unit of energy.."
+				"- EU/tPower.."
+				"- A(Amber.)It's electricity.."
+				"- V(伏)It's called voltage.LV, MV, HV...Because they're game-related values.(Technical:LV = 32V = 32EU/t/A)。"
+			]
+			icon: "gtceu:lv_battery_buffer_4x"
+			id: "7F97BED1B9552E5E"
+			rewards: [{
+				id: "21A127B9A78F381C"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B797503EA800D59"
+				title: "Basic Settings"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: [
+				"In Gray Tech, electricity is...\"Package\"Form Transfer.Each package is equal to its voltage level."
+				"以LVExamples of data packages,This.\"Package\"Will carry32EU，Multiple squares produce these.EUThe package is produced only if the destination is accessible."
+				"Every moment(1/20秒),EU\"包\"Attempted to shift from energy producers to consumers."
+				"These.\"包\"Two arguments:Level of voltage by producer level(V)，And electricity.(A)，This determines how much power can actually be transferred."
+				"Only if it's all Amber.\"包\"When you can be accepted,It's the power that's transferred..You might notice that your machine is just below full.EU- They're only missing at least.1AOnly when you enter the voltage.EU。"
+				""
+				"If a machine receives a voltage above its voltage level,,It will explode, but any excess current will not have a negative impact because the machine will only be consumed on demand.."
+				""
+				"A machine explosion usually destroys the terrain.,This function is disabled in this package."
+				""
+				"Anyway...,Energy\"包\"Form Transfer,Yes.LV是32EU,Yes.MV是128EU...By such push, the machine may actually receive less energy than it sends because of the loss of cables."
+				""
+				"Machine energy input is limited by voltage and current, so one is connected toLVLineMVThe machine, the input current is...1A♪ When will never accept more ♪32EU/tPower."
+				"Still.LVRun on the lineMVMachine, but only when the formula is low enough.,Or if you have a medium-pressure battery in the battery battery, the machine will accept it when it's free.1A，So the battery will be at maximum speed.32EU/tCharge."
+			]
+			icon: "gtceu:lv_transformer_1a"
+			id: "0CC922B821305906"
+			rewards: [{
+				id: "6AACFA4A99B6EF47"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34D8E6B118290930"
+				title: "Energy Transfer"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"TransferEUIt is done by direct connection to a conduit or cable."
+				"It's a bad choice because they're going to charge you, and you're going to have to use insulation cables because of the damage."
+				"Wire loss means you have to get your machine close to your generator, but it will only become a problem early in the game."
+				"If you browse the job book,,You'll eventually be able to get a superconductor around this."
+				"Gray Tech's cable loss.EUThe package transfers reduce their storage.EU。"
+				"If a tin cable is wired to1，For a basic combustion engine4Rice cable, at the end of the line.28EU/t，Not normalLVMachine power.30EU/t。So, the machine at work could jump in seconds."
+				"But there's no need to worry. There's a cheap superconduct in the front, there's no wire in the back."
+			]
+			icon: "gtceu:tin_single_cable"
+			id: "4A7E19EF14D3C072"
+			rewards: [{
+				id: "0742E14D9F82B5DA"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C551BD24A83AB3F"
+				title: "Wire Transfer"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"In Gray Tech, each small generator is generated.1AIts voltage level."
+				"If a machine needs...32EU/t，One.32EU的\"Package\"♪ Will every once ♪tickSend."
+				"One with4Battery.LVBatteries can be generated.4Amber's.LV(128EU/t)。"
+				"Generic machine configured for extraction2Amber, other machines have specific Amber input, as described in their tooltips."
+				"Attempting to transport over-restricted Amber will burn your cables."
+				"Amber only connects directly to producers and consumers by cable and only when the consumer operates."
+				"That means you can safely lower your cable in some places."
+			]
+			icon: "gtceu:lv_diode"
+			id: "4F7A3702787F86A7"
+			rewards: [{
+				id: "12DB6E7A8A385246"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "007D09C6CE7CB00B"
+				title: "Electricity"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Overfrequency is a mechanism.,When you try to run the formula in a machine of a higher level than the formulation itself, the formula will use more energy, but the formulation time will be reduced according to the level of your hyperfrequency."
+				"The machine has a side menu to set the maximum voltage level that it will overwhelm, click on it to recycle all available voltage and select a limit."
+				"Each level above the formulation level allows an overfrequency.Every hyper frequency means:"
+				"2xFormula Speed"
+				"4xElectricity consumption"
+				"2xTotal energy cost"
+				"But...ULVThe formula.(And...2EU/tThe mill formula.)在LVThere's no frequency in the machine, so they're here.MVOnly to useLVLevel power(The grinder formula is generally available.HVUse only32EU/t)。"
+				"The default overfrequency increases four times the rated power and reduces the time to half. The use of electricity has doubled, so it is damaging, and the vast majority of machines are using impairment."
+				"The concept of loss or loss over the frequency,4xFormula speed,4xElectricity consumption."
+			]
+			icon: "minecraft:clock"
+			id: "5535934109A12B5D"
+			rewards: [{
+				id: "31ED6CE96AA0C0E8"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DB7B7FC0312D572"
+				title: "Overfrequency"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Of course, between voltages can be converted by transformers. Normal, high current, high-energy transformers can only be converted between two adjacent voltage layers. They also have pressure and pressure-relief patterns. Pressure mode, voltage and4xThe current will be converted to high voltage and1xElectricity."
+				"The transformers are divided into four categories: normal, high current, high energy and pressure relief transformers. Normal transformer as1A<-->4A，High current transformer as4A<-->16A，The high-energy transformer is16A<-->64A。"
+				"ZPMThe power transformers of the multiple-block machine that is the stage to unlock can support the conversion of any voltage to any current./Pressure relief, which replaces all normal transformers in high voltage high current conditions in the medium to long term."
+				"But the real use is to turn the laser."
+			]
+			icon: "gtceu:active_transformer"
+			id: "010CF028448C17A9"
+			rewards: [{
+				id: "7C3F436CBD1BBB13"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "311562AB006A065E"
+				title: "Change pressure"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+	]
+	title: "Electricity"
+}
